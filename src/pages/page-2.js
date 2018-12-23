@@ -21,7 +21,7 @@ class SecondPage extends React.Component {
         <h1>Hi from the second page</h1>
         <p>Welcome to page 2</p>
         <h2> test netlify forms</h2>
-        <form netlify onSubmit={this.handleSubmit}>
+        <form netlify name="productRequest" onSubmit={this.handleSubmit}>
           <input type="text" name="name" placeholder="name" />
           <input type="email" name="email" placeholder="email" />
           <input type="date" name="startDate" />
