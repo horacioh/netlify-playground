@@ -25,10 +25,6 @@ collections:
         label: Descripcion del Producto
         widget: markdown
 
-      - name: body
-        label: Descripcion del Producto
-        widget: markdown
-
       - name: image
         widget: "image"
         default: "/uploads/product-default.jpg"
@@ -37,6 +33,7 @@ collections:
             multiple: true
 
       - label: "Manual PDF"
+        required: false
         name: "manual_pdf"
         widget: "file"
         media_library:

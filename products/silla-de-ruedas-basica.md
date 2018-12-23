@@ -7,15 +7,11 @@ manual_pdf: /assets/fundación-bancaria-_la-caixa_-_-caixaforum.pdf
 ---
 test de contenido de explicacion para la silla de ruedas pequeña sencilla que alquilaremos.
 
-
-
 ## Caracteristicas
 
 * silla de alta calidad
 * solo para ser empujado. no da autonomia completa.
 * ruedas de 20cm de diametro
-
-
 
 ## Precios
 
