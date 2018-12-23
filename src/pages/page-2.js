@@ -9,11 +9,6 @@ class SecondPage extends React.Component {
     sent: false,
   }
 
-  handleSubmit = e => {
-    e.preventDefault()
-    this.setState({ sent: true })
-  }
-
   render() {
     return (
       <Layout>
@@ -26,7 +21,7 @@ class SecondPage extends React.Component {
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={this.handleSubmit}
+          action="#"
         >
           <input type="hidden" name="form-name" value="product-request" />
           <input type="text" name="name" placeholder="name" />
