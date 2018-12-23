@@ -1,0 +1,43 @@
+backend:
+  name: netlify-playground
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: productos
+    label: Productos
+    folder: products
+    create: true
+    fields:
+      - name: path
+        label: URL
+
+      - name: date
+        label: Date
+        widget: date
+
+      - name: title
+        label: Nombre del Producto
+
+      - name: body
+        label: Descripcion del Producto
+        widget: markdown
+
+      - name: body
+        label: Descripcion del Producto
+        widget: markdown
+
+      - name: image
+        widget: "image"
+        default: "/uploads/product-default.jpg"
+        media_library:
+          config:
+            multiple: true
+
+      - label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        media_library:
+          config:
+            multiple: true
