@@ -1,5 +1,6 @@
 backend:
-  name: horacioh/netlify-playground
+  name: github
+  repo: horacioh/netlify-playground
 
 media_folder: static/assets
 public_folder: assets
